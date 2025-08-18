@@ -31,13 +31,13 @@ git clone https://github.com/geekygeeky/rust-full-course
 
 To run a lesson, just navigate into the directory and use the `make run` command. This would compile the lesson using the Rust compiler and also run the lesson.
 
-#### For example
+#### Example
 
-`cd primivitive_data_types`
+If you want to run the `1_primivitive_data_types` lesson. Use the command below.
 
 ```bash
 # We are currently inside the primitive-data-types directory
-$ make run
+$ make run p=1_primivitive_data_types
 ```
 
 ### Create new lesson
